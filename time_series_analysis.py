@@ -6,6 +6,8 @@ def app():
     st.caption('Author: Muskan, Zaid')
     st.caption('2023 April')
     
+    st.image('assets/time_series.jpg')
+    
     st.header('A. Stationarity')
     
     st.markdown(

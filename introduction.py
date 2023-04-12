@@ -20,3 +20,5 @@ def app():
 
     """
     )
+    
+    st.image('assets/1.png')

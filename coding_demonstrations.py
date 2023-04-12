@@ -1,9 +1,10 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 def app():
 
     st.title('Evaluation of Time Series Models')
-    st.caption('Author: Shrivani, Kashin')
+    st.caption('Author: Shravani, Kashin')
     st.caption('2023 April')
     
     st.header('Coding Demonstration')
@@ -17,3 +18,5 @@ def app():
 
         """
     )
+    
+    components.html("""<script src='https://gist.github.com/UmbraVenus/2d5de6d990ff5cb30fba712a520d19bb.js'></script>""", height=2000)
