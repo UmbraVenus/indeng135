@@ -8,7 +8,7 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import streamlit as st
 from plotly import graph_objs as go
-from fbprophet import Prophet
+from prophet import Prophet
 
 st.cache()
 def get_data():
