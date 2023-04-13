@@ -28,7 +28,7 @@ def app():
     st.caption('Author: Sage')
     st.caption('2023 April')
     
-    st.header('Time Series with Facebook Prophet-Predicting Daily Number of Posts Published on Medium')
+    st.header('Predicting Daily Number of Posts Published on Medium')
     st.caption('Reference: https://www.kaggle.com/code/kashnitsky/topic-9-part-2-time-series-with-facebook-prophet/notebook')
     
     daily_df = get_data()
