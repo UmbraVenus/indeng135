@@ -60,7 +60,7 @@ where F(t+m) is the forecast for m periods ahead, Y(t) is the actual observation
 """)
 
     st.subheader('C. ARIMA')
-    st.image('assets/frontpage.jpeg')
+    
     st.markdown("""
 - Autoregression (AR): refers to a model that shows a changing variable that regresses on its own lagged, or prior, values.
 - Integrated (I): represents the differencing of raw observations to allow the time series to become stationary (i.e., data values are replaced by the difference between the data values and the previous values).
@@ -80,6 +80,7 @@ AutoRegressive (AR): The parameter p tells us how many past values to consider f
     st.markdown("""
                 Hence this model is combining everything above together; the difference method, MA model and AR model since we can simply change the parameters to achieve the other model.
                 """)
+    st.image('assets/frontpage.jpeg')
     st.image('assets/acf.png')
     st.image('assets/pacf.png')
     st.image('assets/partial_acf.png')
