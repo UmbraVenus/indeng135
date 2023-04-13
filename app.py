@@ -15,13 +15,12 @@ import visualization
 app = MultiApp()
 
 # add apps here, order matters
-app.add_app("Home", reference.app)
 app.add_app("I. Introduction",introduction.app)
 app.add_app("II. Time Series Analysis", time_series_analysis.app)
 app.add_app("III. Time Series Forecasting Techniques", time_series_forecasting_techniques.app)
 app.add_app("IV. Coding Demonstration", coding_demonstrations.app)
 app.add_app("V. Visualization", visualization.app)
-app.add_app("VI. Conclusion", reference.app)
+# app.add_app("VI. Conclusion", reference.app)
 
 
 # run apps
